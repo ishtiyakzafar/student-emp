@@ -1,0 +1,870 @@
+/* include.css */
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.nav-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  padding: 0 1rem;
+  line-height: 50px;
+  position: relative !important;
+}
+
+.nav-list li:hover {
+  background: #4caf50;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-item-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  list-style: none !important;
+  line-height: 20px;
+}
+
+.dropdown-content li a {
+  color: black !important;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.brand-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header {
+  background: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.quote {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.main-content {
+  padding: 2rem 0;
+  width: 85%;
+  margin: auto;
+}
+
+.intro p {
+  margin-bottom: 2rem;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 10px;
+}
+
+.programs h2 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 2rem;
+}
+
+.program-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program,
+.membership {
+  text-align: center;
+}
+
+.program img,
+.membership img {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+.program h3,
+.membership h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.about {
+  min-height: 300px;
+  padding-top: 50px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.footer-logo,
+.navigation,
+.workinghr,
+.contact {
+  width: 12%;
+}
+
+.footer-logo img {
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  padding-bottom: 20px;
+}
+
+.navigation ul li {
+  margin-bottom: 10px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.navigation ul li a:hover {
+  background: #4caf50;
+  color: #000;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.banner-wrap {
+  background: #000;
+  position: relative;
+}
+
+.banner-wrap h1 {
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  left: 8%;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.banner-wrap h1 span {
+  color: #4caf50;
+}
+
+.banner {
+  background-image: url("../Images/About/About\ Us\ \(1\).png");
+  width: 100%;
+  height: 400px;
+  background-position: right;
+  background-repeat: no-repeat;
+  clip-path: polygon(47% 0, 100% 0, 100% 100%, 40% 100%);
+}
+
+.banner.mission {
+  background-image: url("../Images/About/About\ Us\ \(2\).png");
+  clip-path: polygon(0px 0px, 48% 0px, 55% 100%, 0px 100%);
+  background-position: left;
+  height: 300px;
+}
+
+section {
+  background: #353535;
+}
+
+.main-content h1 {
+  color: #4caf50;
+  text-align: center;
+}
+
+.main-content p {
+  color: #fff;
+  line-height: 22px;
+}
+
+.main-content ul li {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.main-content h5 {
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.content-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box {
+  background: #000;
+  position: relative;
+}
+
+.box h1 {
+  position: absolute;
+  right: 0;
+  color: #fff;
+  text-transform: uppercase;
+  top: 30%;
+  right: 10%;
+  font-size: 50px;
+}
+
+.box h1 span {
+  color: #4caf50;
+}
+
+.staff-banner {
+  background-image: url("../Images/About/About\ Us\ \(3\).png");
+  clip-path: polygon(0px 0px, 54% 0px, 70% 100%, 0px 100%);
+  background-position: left;
+  height: 400px;
+}
+
+.content-box {
+  background: #353535;
+}
+
+.staff-content {
+  padding: 2rem 0;
+  width: 85%;
+  margin: auto;
+}
+
+.staff-content .staff-info {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.staff-detail {
+  padding-bottom: 50px;
+  display: flex;
+  gap: 50px;
+}
+.staff-detail h1 {
+  color: #4caf50;
+  text-align: center;
+}
+.staff-detail p {
+  color: #fff;
+  line-height: 25px;
+}
+
+.box.facilities h1 {
+  right: unset;
+  left: 10%;
+}
+
+.facilities-banner {
+  background-image: url("../Images/About/About\ Us\ \(8\).png");
+  clip-path: polygon(47% 0, 100% 0, 100% 100%, 31% 100%);
+  background-position: right;
+  height: 400px;
+}
+
+.facilities-content {
+  padding: 2rem 0;
+  width: 85%;
+  margin: auto;
+}
+
+.facilities-content .facilities-info {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.galary {
+  text-align: center;
+}
+
+.galary h1 {
+  color: #000;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.adult_fitness {
+  background: #353535;
+}
+
+.adult_fitness_content {
+  padding: 2rem 0;
+  width: 85%;
+  margin: auto;
+}
+
+.adult_fitness_content h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.adult_fitness_content h1 span {
+  color: #4caf50;
+  font-weight: 800;
+}
+
+.adult_fitness_quote {
+  background: #4caf50;
+  width: fit-content;
+  color: #000;
+  padding: 20px 10px;
+  margin: auto;
+}
+
+.adult_fitness_content p {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.adult_fitness_content p span {
+  color: #4caf50;
+}
+
+.adult_fitness_img {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.adult_fitness_img_box {
+  background: #1a1a1a;
+}
+
+.adult_fitness_img_box img {
+  width: 300px;
+}
+
+.check-out {
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.check-out-content {
+  padding: 2rem 0;
+  width: 85%;
+  margin: auto;
+}
+
+.check-out-content p {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.check-out-content p span {
+  color: #4caf50;
+}
+
+.check-out-img {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.check-out-img-box img {
+  width: 400px;
+}
+
+.check-out-img-box {
+  position: relative;
+}
+
+.check-out-img-box a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.check-out-img-box span {
+  color: #4caf50;
+}
+
+.fitness_program {
+  display: flex;
+  gap: 50px;
+}
+
+.fitness_program_left,
+.fitness_program_right {
+  width: 50%;
+  color: #fff;
+}
+
+.fitness_program_right.kids {
+  width: 60%;
+}
+
+.fitness_program_left {
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.fitness_program_left p {
+  color: #4caf50;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.fitness_program_left span {
+  color: #4caf50;
+}
+
+.fitness_program_right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fitness_program_right_img {
+  position: relative;
+  background: #1a1a1a;
+  width: 200px;
+  height: 150px;
+}
+
+.fitness_program_right_img p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+.fitness_program_right_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card_wrap {
+  display: flex;
+  gap: 20px;
+
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+}
+
+.card {
+  width: 25%;
+  background: #353535;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.card h1 span {
+  color: #4caf50;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.member-img img {
+  width: 450px;
+  border: 10px solid #1a1a1a;
+}
+
+.membership {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  color: #000;
+  margin: 50px 0;
+  position: relative;
+}
+
+.membership::before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 3px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -20px;
+  background: #4caf50;
+}
+
+.cart-wrap {
+  background: #000;
+}
+
+.membership-cart {
+  padding: 2rem 0;
+  width: 85%;
+  margin: auto;
+}
+
+.cart {
+  display: flex;
+  gap: 50px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.cart img {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.cart-detail h2 {
+  color: #000;
+}
+
+.cart-detail p {
+  font-size: 20px;
+  color: #000;
+}
+
+.cart-detail span {
+  color: #4caf50;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cart-detail span sup {
+  font-size: 15px;
+}
+
+.cart-detail select {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.cart-detail button {
+  background: #4caf50;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.cart-info {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.service-img {
+  background: #1a1a1a;
+  height: 200px;
+  position: relative;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.service-img p {
+  position: absolute;
+  font-size: 20px;
+  color: #4caf50;
+  text-align: center;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.service-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.fitness_program_right.service {
+  display: block;
+}
+
+.our_nutrition_box {
+  background: #4caf50;
+}
+
+.nutrition_top {
+  text-align: center;
+}
+
+.nutrition_top h1 {
+  color: #000;
+}
+.nutrition_top h1 span {
+  color: #fff;
+}
+
+.nutrition_top p {
+  color: #000;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.our_nutrition {
+  padding: 2rem 0;
+  width: 60%;
+  margin: auto;
+}
+
+.slno {
+  background: #000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nutrition_content {
+  display: flex;
+  gap: 20px;
+}
+
+.nutrition_detail {
+  width: 50%;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.nutrition_flow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.nutrition_flow img {
+  width: 200px;
+  border: 7px solid #353535;
+}
+
+.nutrition_content.two {
+  justify-content: end;
+}
+
+.slno {
+  position: relative;
+}
+
+.slno.connect::before {
+  position: absolute;
+  content: "";
+  width: 515px;
+  height: 3px;
+  border-top: 4px dashed #000;
+  left: 0;
+  transform: rotate(-22deg);
+  top: -93px;
+}
+
+.slno.connect_two::before {
+  position: absolute;
+  content: "";
+  width: 574px;
+  height: 3px;
+  border-top: 4px dashed #000;
+  left: 0;
+  transform: rotate(-18deg);
+  top: -75px;
+}
+
+.slno.connect_one::before {
+  position: absolute;
+  content: "";
+  width: 561px;
+  height: 3px;
+  border-top: 4px dashed #000;
+  transform: rotate(24deg);
+  top: 149px;
+}
+
+.slno.connect_four::before {
+  position: absolute;
+  content: "";
+  width: 513px;
+  height: 3px;
+  border-top: 4px dashed #000;
+  transform: rotate(-155deg);
+  left: -466px;
+  top: -80px;
+}
+
+.nutrition_content.one {
+  gap: 130px;
+}
+
+.nutrition_content.three {
+  gap: 130px;
+}
+
+.myplat {
+  padding: 2rem 0;
+  width: 60%;
+  margin: auto;
+}
+
+.myplat-content {
+  text-align: center;
+}
+
+.myplat-content h1 {
+  color: #4caf50;
+}
+
+.myplat-content span {
+  color: #000;
+}
+
+.myplat-content p {
+  color: #000;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.myplat-content img {
+  width: 100%;
+}
+
+.myplat_img1 {
+  margin-right: -58px;
+}
+
+.myplat-content h2 {
+  color: #000;
+  line-height: 30px;
+}
+
+.lean_more {
+  background: #4caf50;
+  padding: 20px 10px;
+  color: #000;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.contact p i {
+  color: #4caf50;
+  padding-right: 10px;
+  font-size: unset;
+}
